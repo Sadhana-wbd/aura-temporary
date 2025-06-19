@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aura-test-frontend
+  description: React + TypeScript frontend using RTK Query
+  tags:
+    - react
+    - typescript
+    - frontend
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: production
+  owner: team-frontend
+  providesApis:
+    - aura-api
+  system: aura-system
