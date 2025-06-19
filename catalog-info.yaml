@@ -10,7 +10,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
   links:
-    - url: https://localhost:3001
+    - url: https://backoffice.dp.prd.api.discomax.com/dart-client
       title: Open App UI
       icon: dashboard
 spec:
